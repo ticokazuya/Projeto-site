@@ -12,14 +12,14 @@
 
     /*Formatação de imagens com legenda*/
     figure.foto-legenda{
-        position: relative;
+        position: absolute;
         border: 8px solid white;
-        box-shadow: 1px 1px 4px blanchedalmond;
+        box-shadow: 1px 1px 4px red;
     }
 
     figure.foto-legenda img{
-        width: 100%;
-        height: 100%;
+        width: auto;
+        height: auto;
     }
     figure.foto-legenda figcaption{
         opacity: 0;
