@@ -4,7 +4,7 @@
         text-align: justify;
         text-indent: 50px;
     }
-    
+
     /*fundo site*/
     body{
         background-color: black;
@@ -14,7 +14,7 @@
     figure.foto-legenda{
         position: relative;
         border: 8px solid white;
-        box-shadow: blanchedalmond;
+        box-shadow: 1px 1px 4px blanchedalmond;
     }
 
     figure.foto-legenda img{
@@ -25,12 +25,14 @@
         opacity: 0;
         position: absolute;
         top: 0px;
-        background-color: rgba(0, 0,0, .4);
-        color: seashell;
+        background-color: rgba(0, 0,0,.4);
+        color: white;
         width: 100%;
         height: 100%;
         padding: 10px;
         box-sizing: border-box;
         transition: opacity 1s;
     }
-    figure.foto-legenda:hover figcaption /*faz aparecer a legenda quando o mouse pasa*/
+    figure.foto-legenda:hover figcaption{
+        opacity: 1;
+    } /*faz aparecer a legenda quando o mouse pasa*/
