@@ -14,7 +14,7 @@
     figure.foto-legenda{
         position: absolute;
         border: 8px solid white;
-        box-shadow: 1px 1px 4px red;
+        box-shadow: 1px 1px 4px black;
     }
 
     figure.foto-legenda img{
@@ -29,10 +29,10 @@
         color: white;
         width: 100%;
         height: 100%;
-        padding: 10px;
-        box-sizing: border-box;
+        padding: 10px;/* Espaço dentro da legenda*/
+        box-sizing: border-box;/* utiliza o tamanho da borda*/
         transition: opacity 1s;
     }
     figure.foto-legenda:hover figcaption{
         opacity: 1;
-    } /*faz aparecer a legenda quando o mouse pasa*/
+    } /*faz aparecer a legenda quando o mouse pasa o hover deispara uma classe espcifica*/
