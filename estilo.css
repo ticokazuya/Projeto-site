@@ -1,5 +1,8 @@
 @charset "UTF-8"
-    /*paragrafo*/
+    .tex{
+        color: white;
+    }    
+/*paragrafo*/
     p{
         text-align: justify;
         text-indent: 50px;
