@@ -10,7 +10,12 @@
 
     /*fundo site*/
     body{
-        background-color: white;
+        background-color: black;
+    }
+
+    div#interface{
+        width: 800px;
+        margin: 10px 10px 10px 10px;
     }
 
     /*Formatação de imagens com legenda*/
@@ -77,4 +82,16 @@
 
     nav#menu a:hover{
         color: gray;
+    }
+
+    header#cabecalho img#icone{
+        position: absolute;
+        left: 10px;
+        top: 50px;
+    }
+
+    header#cabecalho{
+        border-bottom: 1px #606060 solid;
+        height: 150px;
+        background: url(imgs/netflix.png)no-repeat 0px 100px;
     }
