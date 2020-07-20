@@ -104,6 +104,7 @@
         display: block;
         width: 500px;
         float: left;
+        border-right: 1px solid gray;
     }
 
     aside#lateral{
@@ -114,4 +115,9 @@
 
     footer#rodape{/** #= identificação**/
         clear: both;
+        border-top: 1px solid gray;
+    }
+
+    footer#rodape{
+        text-align: center;
     }
