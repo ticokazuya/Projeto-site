@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste Java</title>
+    <script>
+        var broken = false;
+        function mudaLampada(tipo){
+            if(!broken){
+                document.getElementById("luz").src = "imgs/" + tipo + ".jpg";
+                if(tipo == 'lampadaquebrada'){
+                    broken = true;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Acenda a lampada.</h1>
+    <img src="imgs/lamp.jpg" id="luz" onmousemove="mudaLampada('lampadaacesa')" onmouseout="mudaLampada('lamp')" onclick="mudaLampada('lampadaquebrada')">
+</body>
+</html>
